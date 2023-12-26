@@ -31,7 +31,7 @@ body { background-color: #181818; }
 
 /* 중단배너 */
 #wrap main .contents { width: 978px; height: 1265px; } 
-/* 01 */
+/* 배너1 */
 #wrap main .contents .banner1 { width: 978px; height: 402px; background-color: #181818; display: flex; } 
 #wrap main .contents .banner1 .left { margin-left: 30px; width: 489px; height: 402px; margin-top: 72px; } 
 #wrap main .contents .banner1 .left span { font-size: 100px; color: #e6c7eb; font-family: sans-serif; } 
@@ -42,7 +42,7 @@ body { background-color: #181818; }
 #wrap main .contents .banner1 button { background-color: #00FFA3; color: #000; position: relative; border-radius:50px; min-height:56px; min-width: 142px; margin-top: 37px; font-size: 15px; } 
 #wrap main .contents .banner1 button:hover,
 #wrap main .contents .banner1 button:focus { background-color: #000; color: #fff; } 
-/* 02 */
+/* 배너2 */
 #wrap main .contents .banner2 { width: 978px; height: 402px; background-color: #181818; display: flex; } 
 #wrap main .contents .banner2 .left { text-align: left; width: 489px; margin-left: 30px; margin-top: 72px; padding-top: 22px; } 
 #wrap main .contents .banner2 .left img { width: 441px; height: 229px; } 
@@ -53,7 +53,7 @@ body { background-color: #181818; }
 #wrap main .contents .banner2 button { background-color: #00FFA3; color: #000; position: relative; border-radius:50px; min-height:56px; min-width: 142px; margin-top: 37px; font-size: 15px; } 
 #wrap main .contents .banner2 button:hover,
 #wrap main .contents .banner2 button:focus { background-color: #000; color: #fff; } 
-/* 03 */
+/* 배너3 */
 #wrap main .contents .banner3 { width: 978px; height: 466px; background-color: #181818; display: flex; } 
 #wrap main .contents .banner3 .left { margin-left: 30px; width: 489px; height: 402px; margin-top: 72px; } 
 #wrap main .contents .banner3 .left span { font-size: 100px; color: #e6c7eb; font-family: sans-serif; } 

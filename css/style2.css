@@ -1,4 +1,5 @@
 @charset "UTF-8"; 
+/* 초기화 */
 * { margin: 0; padding: 0; } 
 ul,li { margin: 0; padding: 0; list-style: none; } 
 a { text-decoration: none; } 
@@ -28,8 +29,11 @@ body { background-color: #181818; }
 #wrap main .topbanner .btn .pc{width: 489px;margin-left: 130px;}
 #wrap main .topbanner .btn .moblie{width: 489px;margin-right: 130px;}
 #wrap main .topbanner .btn .beta{width: 489px;}
+/* pc버튼 */
 #wrap main .topbanner .pc button{background-color: #00FFA3;color: #000; position: relative;border-radius:50px;min-height:73px;min-width: 266px;margin-top: 73px;font-size: 20px;}
+/* 모바일버튼 */
 #wrap main .topbanner .moblie button{background-color: #00FFA3;color: #000; position: relative;border-radius:50px;min-height:73px;min-width: 266px;margin-top: 73px;font-size: 20px;}
+/* 베타신청버튼 */
 #wrap main .topbanner .beta button{background-color: #00FFA3;color: #000; position: relative;border-radius:50px;min-height:73px;min-width: 266px;margin-top: 73px;font-size: 20px;}
 #wrap main .topbanner button:hover,
 #wrap main .topbanner button:focus{background-color: #000;color: #fff;}
