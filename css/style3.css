@@ -1,0 +1,73 @@
+@charset "UTF-8"; 
+* { margin: 0; padding: 0; } 
+ul,li { margin: 0; padding: 0; list-style: none; } 
+a { text-decoration: none; } 
+a:link { color : white; } 
+a:visited { color : white; } 
+body { background-color: #181818; } 
+#wrap { width: 978px; height: 1662px; margin: 0 auto; background-color: #181818; } 
+/* header */
+#wrap header { width: 978px; height: 113px; background-color: #181818; display: flex; border-bottom: 1px solid #000;} 
+/* logo */
+#wrap header h1.logo { width: 498px; height: 113px; background-color: #181818; } 
+#wrap header h1.logo a {width: 100%;height: 100%;}
+#wrap header h1.logo a img { margin-top: 6px; margin-left: 30px; width: 100px; } 
+/* menu */
+#wrap header .menu { width: 480px; height: 113px; line-height: 113px; background-color: #181818; } 
+#wrap header nav.menu ul { display: flex; float: right; } 
+#wrap header nav.menu ul li a { font-size: 20px; color: #fff; font-weight: bold;; display: block; font-family: 'sans-sarif'; margin-right: 30px; }
+#wrap header nav.menu ul li a:hover,
+#wrap header nav.menu ul li a:focus { margin-bottom: 5px; color: #00FFA3; } 
+/* main*/
+#wrap main { width: 978px; height: 1000px; position: absolute;} 
+#wrap main .service {width: 978px;height:1000px;text-align: center;position: relative;padding-top: 85px;}
+#wrap main .service p{margin-bottom: 50px;}
+#wrap main .service p span{color: #fff;font-size: 56px;}
+
+/* 첫번째줄 */
+#wrap main .service .firstline{display: flex;width: 100%;height: 432px;}
+/* banner1 */
+#wrap main .service .firstline .banner1{width: 282px;height: 359px;text-align: center;background-color: #181818;color: #fff;margin-left: 30px;display: block;}
+#wrap main .service .firstline .banner1 img {width: 120px;height: 120px;text-align: center;}
+#wrap main .service .firstline .banner1 .text1 h2{padding: 40px 0px;}
+#wrap main .service .firstline .banner1 .text1 h2 span{font-size: 28px;}
+#wrap main .service .firstline .banner1 .text2 {width: 272px;font-family: helvetica neue;}
+#wrap main .service .firstline .banner1 .text2 span{width: 272px;font-size: 16px;font-family: helvetica neue;}
+/* banner2 */
+#wrap main .service .firstline .banner2{width: 280px;height: 359px;text-align: center;background-color: #181818;color: #fff;margin-left: 52px;display: block;}
+#wrap main .service .firstline .banner2 img {width: 120px;height: 120px;text-align: center;}
+#wrap main .service .firstline .banner2 .text1 h2{padding: 40px 0px;}
+#wrap main .service .firstline .banner2 .text1 h2 span{font-size: 28px;}
+#wrap main .service .firstline .banner2 .text2 span{font-size: 16px;font-family: helvetica neue;}
+/* banner3 */
+#wrap main .service .firstline .banner3{width: 280px;height: 359px;text-align: center;background-color: #181818;color: #fff;margin-left: 30px;display: block;float: right;}
+#wrap main .service .firstline .banner3 img {width: 120px;height: 120px;text-align: center;}
+#wrap main .service .firstline .banner3 .text1 h2{padding: 40px 0px;}
+#wrap main .service .firstline .banner3 .text1 h2 span{font-size: 28px;}
+#wrap main .service .firstline .banner3 .text2 span{font-size: 16px;font-family: helvetica neue;}
+
+/* 두번째줄 */
+#wrap main .service .secondline {display: flex;width: 978px;height: 432px;text-align: center;justify-content: center;gap: 100px;}
+/* banner1 */
+#wrap main .service .secondline .banner1{width: auto;height: 359px;text-align: center;background-color: #181818;color: #fff;margin-left: 30px;display: block;}
+#wrap main .service .secondline .banner1 img {width: 120px;height: 120px;text-align: center;}
+#wrap main .service .secondline .banner1 .text1 h2{padding: 0px 0px 40px;}
+#wrap main .service .secondline .banner1 .text1 h2 span{font-size: 28px;}
+#wrap main .service .secondline .banner1 .text2 {width: 272px;font-family: helvetica neue;}
+#wrap main .service .secondline .banner1 .text2 span{width: 272px;font-size: 16px;font-family: helvetica neue;}
+/* banner2 */
+#wrap main .service .secondline .banner2{width: auto;height: 359px;text-align: center;background-color: #181818;color: #fff;margin-left: 30px;display: block;}
+#wrap main .service .secondline .banner2 img {width: 120px;height: 120px;text-align: center;}
+#wrap main .service .secondline .banner2 .text1 h2{padding: 0px 0px 40px;}
+#wrap main .service .secondline .banner2 .text1 h2 span{font-size: 28px;}
+#wrap main .service .secondline .banner2 .text2 {width: 272px;font-family: helvetica neue;}
+#wrap main .service .secondline .banner2 .text2 span{width: 272px;font-size: 16px;font-family: helvetica neue;}
+
+/* 하단배너 */
+#wrap main .lowbanner { margin-top: 0px; width: 978px; height: 298px; background-color: #181818; text-align: center; color: #fff; } 
+#wrap main .lowbanner .text1 { padding-top:40px; font-size: 56px; } 
+#wrap main .lowbanner .text2 { margin-top: 50px; font-size: 16px; margin-bottom: 50px; } 
+/* footer */
+#wrap main footer { width: 978px; height: 86px; background-color: #181818; font-size: 13px;border-top: 1px solid #000; }
+#wrap main footer .porsonal { width: 100%; height: 38px; line-height: 38px; text-align: center; color: #666; } 
+#wrap main footer .copyright { width: 100%; height: 48px; line-height: 48px; text-align: center; color: #666; } 

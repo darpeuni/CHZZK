@@ -1,0 +1,44 @@
+@charset "UTF-8"; 
+* { margin: 0; padding: 0; } 
+ul,li { margin: 0; padding: 0; list-style: none; } 
+a { text-decoration: none; } 
+a:link { color : white; } 
+a:visited { color : white; } 
+body { background-color: #181818; } 
+#wrap { width: 978px; height: 1662px; margin: 0 auto; background-color: #181818; } 
+/* header */
+#wrap header { width: 978px; height: 113px; background-color: #181818; display: flex; border-bottom: 1px solid #000;} 
+/* logo */
+#wrap header h1.logo { width: 498px; height: 113px; background-color: #181818; } 
+#wrap header h1.logo a {width: 100%;height: 100%;}
+#wrap header h1.logo a img { margin-top: 6px; margin-left: 30px; width: 100px; } 
+/* menu */
+#wrap header .menu { width: 480px; height: 113px; line-height: 113px; background-color: #181818; } 
+#wrap header nav.menu ul { display: flex; float: right; } 
+#wrap header nav.menu ul li a { font-size: 20px; color: #fff; font-weight: bold;; display: block; font-family: 'sans-sarif'; margin-right: 30px; }
+#wrap header nav.menu ul li a:hover,
+#wrap header nav.menu ul li a:focus { margin-bottom: 5px; color: #00FFA3; } 
+/* main*/
+#wrap main { width: 978px; height: 1547px; } 
+/* 상단배너 */
+#wrap main .topbanner { width: 978px; height: 1157px;background-color: #181818;text-align: center;  } 
+#wrap main .topbanner img{text-align: center;margin-top: 44px;justify-content: center;margin-bottom: 50px;}
+#wrap main .topbanner p span{font-size: 22px;color: #fff;padding-top: 100px;}
+#wrap main .topbanner .btn{display: flex;margin-bottom: 100px;}
+#wrap main .topbanner .btn .pc{width: 489px;margin-left: 130px;}
+#wrap main .topbanner .btn .moblie{width: 489px;margin-right: 130px;}
+#wrap main .topbanner .btn .beta{width: 489px;}
+#wrap main .topbanner .pc button{background-color: #00FFA3;color: #000; position: relative;border-radius:50px;min-height:73px;min-width: 266px;margin-top: 73px;font-size: 20px;}
+#wrap main .topbanner .moblie button{background-color: #00FFA3;color: #000; position: relative;border-radius:50px;min-height:73px;min-width: 266px;margin-top: 73px;font-size: 20px;}
+#wrap main .topbanner .beta button{background-color: #00FFA3;color: #000; position: relative;border-radius:50px;min-height:73px;min-width: 266px;margin-top: 73px;font-size: 20px;}
+#wrap main .topbanner button:hover,
+#wrap main .topbanner button:focus{background-color: #000;color: #fff;}
+
+/* 하단배너 */
+#wrap main .lowbanner { margin-top: 0px; width: 978px; height: 298px; background-color: #181818; text-align: center; color: #fff;border-bottom: 1px solid #000; } 
+#wrap main .lowbanner .text1 { padding-top:40px; font-size: 56px; } 
+#wrap main .lowbanner .text2 { margin-top: 50px; font-size: 16px; margin-bottom: 50px; } 
+/* footer */
+#wrap main footer { width: 978px; height: 86px; background-color: #181818; font-size: 13px;} 
+#wrap main footer .porsonal { width: 100%; height: 38px; line-height: 38px; text-align: center; color: #666; } 
+#wrap main footer .copyright { width: 100%; height: 48px; line-height: 48px; text-align: center; color: #666; } 
